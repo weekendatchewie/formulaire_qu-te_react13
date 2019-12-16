@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.FormMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.FormMovie h1 {
+  text-align: center;
+}
+
+.FormMovie .form-data {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 0;
+}
+
+.FormMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FormMovie .form-data input:not([type='submit']) {
+  flex-grow: 1;
+}
+
+.FormMovie textarea {
+  width: 90%;
+}
